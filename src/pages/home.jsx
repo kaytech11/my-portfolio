@@ -4,7 +4,7 @@ import Github from '../assets/github.png'
 import Whatsapp from '../assets/whatsapp.png'
 // import oval from '../assets/Oval.png'
 import Copy from '../assets/copy.png'
-import Group from '../assets/Group.png'
+// import Group from '../assets/Group.png'
 import { motion } from "framer-motion";
 import Val from '../assets/val.png'
 import emailjs from "@emailjs/browser";
