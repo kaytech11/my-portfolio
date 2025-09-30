@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import Linkedin from '../assets/Linkedin.png'
-import github from '../assets/github.png'
-import whatsapp from '../assets/whatsapp.png'
+import Github from '../assets/github.png'
+import Whatsapp from '../assets/whatsapp.png'
 // import oval from '../assets/Oval.png'
-import copy from '../assets/copy.png'
+import Copy from '../assets/copy.png'
 import Group from '../assets/Group.png'
 import { motion } from "framer-motion";
-import val from '../assets/val.png'
+import Val from '../assets/val.png'
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -71,16 +71,16 @@ const Home = () => {
                         <img src={Linkedin} alt="linkedin" className="w-8 sm:w-10 h-8 sm:h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg" />
                     </a>
                     <a href="https://github.com/kaytech11/Repositories" target="_blank" rel="noopener noreferrer">
-                        <img src={github} alt="github" className="w-8 sm:w-10 h-8 sm:h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-500/50" />
+                        <img src={Github} alt="github" className="w-8 sm:w-10 h-8 sm:h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-500/50" />
                     </a>
                     <a href="https://wa.me/2349033019846?text=Hello%20Kayode%2C%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer">
-                        <img src={whatsapp} alt="whatsapp" className="w-8 sm:w-10 h-8 sm:h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-green-500/50" />
+                        <img src={Whatsapp} alt="whatsapp" className="w-8 sm:w-10 h-8 sm:h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-green-500/50" />
                     </a>
                 </div>
             </div>
 
             <section className="relative">
-                <img src={copy} alt=" copy" className=' absolute  w-40 md:w-70 mt-3  ' />
+                <img src={Copy} alt=" Copy" className=' absolute  w-40 md:w-70 mt-3  ' />
                 {/* <img src={oval} alt="oval" className='absolute bottom right-0 w-30 h-50 hidden' /> */}
                 <div className='flex flex-col-reverse md:flex-row  justify-between md:px-20 md:py-10  mx-5 md:mx-1'>
                     <div>
@@ -152,7 +152,7 @@ const Home = () => {
                         </motion.div>
                     ))}
                 </div>
-                <img src={val} alt=" val" className=' absolute bottom-0 right-0 w-40 md:w-70 ' />
+                <img src={Val} alt=" val" className=' absolute bottom-0 right-0 w-40 md:w-70 ' />
             </section>
 
             {/* PROJECTS */}
@@ -310,10 +310,10 @@ const Home = () => {
                             <img src={Linkedin} alt="linkedin" className="w-10 h-10 rounded-full cursor-pointer transition duration-300 hover:scale-110 hover:shadow-lg 
           " /></a>
                         <a href="https://github.com/kaytech11/Repositories" target="_blank" rel="noopener noreferrer ">
-                            <img src={github} alt="github" className="w-10 h-10 rounded-full cursor-pointer transition duration-300
+                            <img src={Github} alt="github" className="w-10 h-10 rounded-full cursor-pointer transition duration-300
                 hover:scale-110 hover:shadow-lg hover:shadow-gray-500/50" /></a>
                         <a href="https://wa.me/2349033019846?text=Hello%20Kayode%2C%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer">
-                            <img src={whatsapp} alt="whatsapp" className="w-10 h-10 rounded-full transition duration-300 
+                            <img src={Whatsapp} alt="whatsapp" className="w-10 h-10 rounded-full transition duration-300 
           hover:scale-110 hover:shadow-lg hover:shadow-green-500/50" /></a>
                     </div>
                 </div>
